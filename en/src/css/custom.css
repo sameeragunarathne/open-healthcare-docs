@@ -932,3 +932,9 @@ hr {
   color: inherit;
   display: inline-block;
 }
+
+/* Homepage: keep the top menu to "Documentation" only.
+   Items tagged navbar-docs-only in docusaurus.config.js still show on docs pages. */
+html.homepage .navbar-docs-only {
+  display: none;
+}

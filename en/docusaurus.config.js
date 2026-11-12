@@ -94,18 +94,21 @@ const config = {
           srcDark: 'img/logo-dark.svg',
         },
         items: [
-          {to: '/docs/get-started/architecture', label: 'Get Started', position: 'left'},
-          {to: '/docs/fhir/guides/overview-of-fhir', label: 'FHIR', position: 'left'},
-          {to: '/docs/hl7/guides/overview', label: 'HL7', position: 'left'},
+          {to: '/docs/get-started/introduction', label: 'Documentation', position: 'left'},
+          {to: '/docs/get-started/architecture', label: 'Get Started', position: 'left', className: 'navbar-docs-only'},
+          {to: '/docs/fhir/guides/overview-of-fhir', label: 'FHIR', position: 'left', className: 'navbar-docs-only'},
+          {to: '/docs/hl7/guides/overview', label: 'HL7', position: 'left', className: 'navbar-docs-only'},
           {
             to: '/docs/data-transformation/guides/hl7v2-fhir',
             label: 'Data Transformation',
             position: 'left',
+            className: 'navbar-docs-only',
           },
           {
             to: '/docs/secure-health-apis/guides/smart-on-fhir-overview',
             label: 'Security',
             position: 'left',
+            className: 'navbar-docs-only',
           },
           {
             href: 'https://github.com/wso2/open-healthcare-docs',
