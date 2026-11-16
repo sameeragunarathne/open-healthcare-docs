@@ -24,7 +24,7 @@ The Agentic Healthcare Fabric puts WSO2 AI modules (blue) and WSO2 healthcare mo
 | Layer | What it gives an agent |
 |---|---|
 | **Interoperable data** | FHIR APIs and a FHIR repository over EHRs, HL7 v2, C-CDA, DICOM, and claims systems, so every agent reads one consistent model. See [Working with FHIR](../fhir/guides/overview-of-fhir.md). |
-| **Governed tools** | The [FHIR MCP Server](https://github.com/wso2/fhir-mcp-server) exposes FHIR data as MCP tools (`search`, `read`, `create`, `update`, `delete`), with SMART on FHIR authorization when the FHIR server needs it. |
+| **Governed tools** | The [FHIR MCP Server](../fhir/guides/fhir-mcp-server.md) exposes FHIR data as MCP tools (`search`, `read`, `create`, `update`, `delete`), with SMART on FHIR authorization when the FHIR server needs it. |
 | **Agent building** | WSO2 Integrator agents with instructions, memory, and tools, plus durable agents for workflows that run for days. |
 | **Agent governance** | WSO2 Agent Manager for agent registration, agent identity and credentials, AI gateways with guardrails, tracing of every model call and tool call, and evaluation monitors. |
 

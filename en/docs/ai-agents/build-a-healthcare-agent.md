@@ -6,7 +6,7 @@ description: Build a prior authorization agent in WSO2 Integrator that reads the
 
 # Build a healthcare agent
 
-This guide builds a **prior authorization agent** with [WSO2 Integrator](https://wso2.com/products/downloads/?product=wso2integrator). The agent reads a patient's record from a [WSO2 FHIR Server](https://github.com/wso2/fhir-server) through the [FHIR MCP Server](https://github.com/wso2/fhir-mcp-server), drafts a prior authorization request with the supporting evidence, and sends the draft to a clinician for review. It never submits a request on its own.
+This guide builds a **prior authorization agent** with [WSO2 Integrator](https://wso2.com/products/downloads/?product=wso2integrator). The agent reads a patient's record from a [WSO2 FHIR Server](https://github.com/wso2/fhir-server) through the [FHIR MCP Server](../fhir/guides/fhir-mcp-server.md), drafts a prior authorization request with the supporting evidence, and sends the draft to a clinician for review. It never submits a request on its own.
 
 ## Use case
 
