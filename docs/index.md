@@ -12,8 +12,6 @@ Use this page index to reach key documentation areas:
 - [Install and setup](./install-and-setup/manual.md)
 - [FHIR guides](./fhir/guides/overview-of-fhir.md)
 - [HL7 guides](./hl7/guides/overview.md)
-- [C-CDA guides](./ccda/guides/overview.md)
-- [DICOM guides](./dicom/guides/overview.md)
 - [Data transformation](./data-transformation/guides/hl7v2-fhir.md)
 - [EMR connectivity](./emr-connectivity/guides/emr-systems-overview.md)
 - [Secure health APIs](./secure-health-apis/guides/smart-on-fhir-overview.md)

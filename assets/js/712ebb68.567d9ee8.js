@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkwso2_open_healthcare_docs=globalThis.webpackChunkwso2_open_healthcare_docs||[]).push([[4598],{1966(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
